@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*Nicolas Gallagher "Micro clearfix" */
+        .cf { zoom: 1; }
+        .cf:before, .cf:after { 
+          content: ""; display: table; 
+        }
+        .cf:after { clear: both; }
+   /* End of "Micro clearfix" */
+
+.container {
+  width:960px;
+  margin:20px auto;
+  border:1px solid black
+}
+
+header.primary, footer#colophon{
+  /*width:920px;*/
+  width:95.83%;
+  background:grey;
+  float:left;
+  /*margin:20px;*/
+  margin-left:2.083%;
+  padding:2.17%;
+}
+
+/* Pixel to Percentage conversion*/
+/*width (target)/960 px(context) = ____% */
+/* Margin-left -> px(target)/960px(context) = ___% */
+/* ^^^ the formula will be used for all pixel conversions*/
+#content{
+  width:56.67%;
+  background:grey;
+  float:left;
+  margin-left:2.08%;
+   padding:2.17%;
+  
+}
+
+aside{
+  width:37.08%;
+  background:grey;
+  float:left;
+  margin-left:2.08%;
+  padding:2.17%;
+}
+
+.col-4{
+  width:356px;
+  background:grey;
+  float:left;
+  margin-left:20px;
+}
+
+.col-6{
+  width:544px;
+  background:grey;
+  float:left;
+  margin-left:20px;
+}
+
+.col-12{
+  width:920px;
+  background:grey;
+  float:left;
+  margin:20px;
+}

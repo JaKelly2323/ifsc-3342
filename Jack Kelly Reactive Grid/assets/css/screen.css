@@ -1,0 +1,118 @@
+/*The first rule in thiss css file is a universal selector which means 
+it applies the margins and padding below to everything*/
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+body {
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #171717;
+	background-image: url('assets/img/gradient.jpg');
+	background-repeat: repeat-x;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+#container {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	background-color: #FFF;
+	margin-top: 20px;
+	border: 1px solid #CCC;
+}
+dd{
+	font-style:italic;
+	text-indent:3%;
+}
+dt{
+	font-size:16px;
+}
+h4 a:hover{
+	background:green;
+}
+
+#header {
+}
+#header h1 a {
+	background-image: url('assets/img/circlebanner.jpg');
+	display:block;
+	height:140px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#nav {
+	background-color: #000;
+}
+#nav ul {
+	list-style-type: none;
+	margin-left: 10px;
+}
+#nav ul li {
+	display: inline;
+	height: 35px;
+	line-height: 35px;
+}
+#nav ul li a {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+#nav ul li a:link, #nav ul li a:visited {
+	text-decoration: none;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	color: #FFF;
+}
+#nav ul li a:hover {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#content {
+	margin: 20px;
+}
+#content h2{
+	border-bottom:2px solid #1adada ;
+}
+#content h3{
+	border-bottom:2px solid #10e810 ;
+}
+#content h4{
+	border-bottom:2px solid #e13e15;
+}
+#content p {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+#footer {
+	background-color: #000;
+	color: #FFF;
+	height: 25px;
+}
+#footer h6 {
+	font-size: 12px;
+	line-height: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.alert{
+	background:#4a4a4a;
+	color:#1adada;
+}
+.Meme{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	margin-bottom: 15px;
+	
+	border-radius:8px;
+	border: 5px dashed #000000;
+}
